@@ -1,10 +1,13 @@
 
 footer{
-color: navy;
+    border:navy
 }
-button{
-    color: deepskyblue;
+h1{
+    border: ;
 }
 .styled{
     color: navy;
+}
+.header{
+    color:var(--maincolor:blue)
 }
