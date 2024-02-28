@@ -1,13 +1,5 @@
-
-footer{
-    border:navy
-}
-h1{
-    border: ;
-}
-.styled{
-    color: navy;
-}
-.header{
-    color:var(--maincolor:blue)
+:root {
+    color: var(maincilir:30313E)
+    (secondarycolor:FFFFFF)
+    (paincolor:757575);
 }
