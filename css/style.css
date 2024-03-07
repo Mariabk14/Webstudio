@@ -1,5 +1,6 @@
-:root {
-    color: var(maincilir:30313E)
-    (secondarycolor:FFFFFF)
-    (paincolor:757575);
+
+:root{
+    --primaryColor: #ffffff;
+    --secondarytextColor:#2196F3;
+    --maincolor:#30313E;
 }
