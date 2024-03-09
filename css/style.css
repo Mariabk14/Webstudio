@@ -4,3 +4,21 @@
     --secondarytextColor:#2196F3;
     --maincolor:#30313E;
 }
+.button {
+    font-family:"Roboto",sans-serif;
+}
+.features {
+    font-family:"Roboto",sans-serif;
+}
+.team{
+    font-family:"Roboto",sans-serif;
+}
+.address{
+    font-family:"Roboto",sans-serif;
+}
+.WebStudio{
+    font-family:"Raleway",sans-serif;
+}
+.project{
+    font-family:"Inter",sans-serif;
+}
