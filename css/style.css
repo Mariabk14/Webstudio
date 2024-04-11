@@ -1,23 +1,128 @@
 
-:root{
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+    --third-family: "Inter", sans-serif;
     --primaryColor: #ffffff;
-    --secondarytextColor:#2196F3;
-    --maincolor:#30313E;
+        --secondarytextColor: #2196F3;
+        --maincolor: #30313E;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+body {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+        letter-spacing: 0.03em;
+}
+.logo {
+    font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 26px;
+     }
+.logo-web{
+    color: var(--secondarytextColor);
+    }
+.logo-studio {
+    color: #000000;
+}
+
+.menu-link{
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        color: #212121;
+}
+
+.menu-link:hover{
+    color: var(--secondarytextColor);
+}
+
+.information-link{
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        color: #757575;
+}
+
+.information-link:hover{
+    color: var(--secondarytextColor);
+}
+
+.hero-title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+    
 }
 .button {
-    font-family:"Roboto",sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #fff;
 }
-.features {
-    font-family:"Roboto",sans-serif;
+
+.features-title,
+.gallery-title,
+.team-title
+ {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #212121;
 }
-.team{
-    font-family:"Roboto",sans-serif;
+.features-item-title{
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #212121;
+}
+.features-text{
+        line-height: 1.71;
+        color: #757575;
+}
+.team-name{
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #212121;
+}
+.team-text{
+        font-size: 16px;
+        text-align: center;
+        color: #757575;
+}
+.logo-studio-footer{
+    color:var(--primaryColor);
 }
 .address{
-    font-family:"Roboto",sans-serif;
+    line-height: 1.71;
+    font-style:normal ;
 }
-.WebStudio{
-    font-family:"Raleway",sans-serif;
+.address-text{
+    color: var(--primaryColor);
+}
+.menu-link{
+        color: rgba(255, 255, 255, 0.6);
 }
 .project{
     font-family:"Inter",sans-serif;
