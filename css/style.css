@@ -6,6 +6,7 @@
     --primaryColor: #ffffff;
         --secondarytextColor: #2196F3;
         --maincolor: #30313E;
+        --textcolor:#212121
 }
 h1,
 h2,
@@ -46,7 +47,7 @@ font-size: 14px;
 .menu-link{
         font-weight: 500;
         letter-spacing: 0.02em;
-        color: #212121;
+        color: var(--textcolor);
 }
 
 .menu-link:hover{
@@ -89,12 +90,12 @@ font-size: 14px;
     font-weight: 700;
     font-size: 36px;
     text-align: center;
-    color: #212121;
+    color:var(--textcolor);
 }
 .features-item-title{
         font-weight: 700;
         text-transform: uppercase;
-        color: #212121;
+        color:var(--textcolor);
 }
 .features-text{
         line-height: 1.71;
@@ -104,7 +105,7 @@ font-size: 14px;
     font-weight: 500;
     font-size: 16px;
     text-align: center;
-    color: #212121;
+    color: var(--textcolor);
 }
 .team-text{
         font-size: 16px;
@@ -126,4 +127,29 @@ font-size: 14px;
 }
 .project{
     font-family:"Inter",sans-serif;
+}
+.project-button {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: var(--textcolor);
+}
+.project-button:hover{
+    color:var(--secondarytextColor) ;
+}
+.fotogallery-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color:var(--textcolor);
+}
+.fotogallery-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
