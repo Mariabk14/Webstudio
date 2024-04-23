@@ -153,3 +153,15 @@ font-size: 14px;
     letter-spacing: 0.03em;
     color: #757575;
 }
+.hero{
+    margin-top: 208px;
+}
+.features{
+    margin-top: 288px;
+}
+.gallery{
+    margin-top: 100px;
+}
+.team{
+    margin-top: 192px;
+}
