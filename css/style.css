@@ -154,16 +154,16 @@ font-size: 14px;
     color: #757575;
 }
 .hero{
-    margin-top: 208px;
+    padding: 208px;
 }
 .features{
-    margin-top: 288px;
+    padding: 288px;
 }
 .gallery{
-    margin-top: 100px;
+    padding: 100px;
 }
 .team{
-    margin-top: 192px;
+    padding: 192px;
 }
 .container{
     width: 905px;
