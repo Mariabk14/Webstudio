@@ -26,6 +26,10 @@ ul{
 a{
     text-decoration: none;
 }
+header{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 body {
 font-family: var(--font-family);
 font-weight: 400;
