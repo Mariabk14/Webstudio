@@ -37,11 +37,20 @@ font-weight: 400;
 font-size: 14px;
         letter-spacing: 0.03em;
 }
+
 .header-position {
     display: flex;
     align-items: center;
 
 }
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* шапка сайту */
 .logo {
     font-family: var(--second-family);
         font-weight: 700;
@@ -81,8 +90,11 @@ font-size: 14px;
 .information-link:hover{
     color: var(--secondarytextColor);
 }
+/* Hero section */
 .hero{
     background-color:#2F303A ;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .hero-title {
         font-weight: 900;
@@ -123,6 +135,11 @@ font-size: 14px;
     text-align: center;
     color:var(--textcolor);
 }
+/* Our features */
+.features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .features-list{
     display: flex;
     column-gap:30px ;
@@ -142,42 +159,56 @@ font-size: 14px;
         color: #757575;
         width: 270px;
 }
+/* What do we do */
+.gallery {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .gallery-title{
      margin-bottom:50px ;
+}
+.gallery-list {
+    display: flex;
+    column-gap: 30px;
 }
 .gallery-item{
     flex-basis: calc((100% - 2 * 30px) /2 );
 }
-img{
-    display: flex;
-    max-width: 100%;
-}
-.fotogallery-title {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2.00;
-    letter-spacing: 0.06em;
-    color: var(--textcolor);
-}
-.gallery-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.03em;
-    color: #757575;
-}
 
+/* Our team */
+.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #F5F4FA;
+}
+.team-title{
+    margin-bottom: 50px;
+}
+.team-list{
+    display: flex;
+    column-gap: 30px;
+    
+}
+.team-item{
+box-sizing: content-box;
+    width: 270px;
+    background-color: var(--primaryColor);
+}
 .team-name{
     font-weight: 500;
     font-size: 16px;
     text-align: center;
     color: var(--textcolor);
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 .team-text{
         font-size: 16px;
         text-align: center;
         color: #757575;
+        padding-bottom: 30px;
 }
+/* Footer */
 .logo-studio-footer{
     color:var(--primaryColor);
 }
@@ -187,7 +218,13 @@ img{
 }
 .address-text{
     color: var(--primaryColor);
+    padding-top: 20px;
 }
+.contacts-link{
+ color: var(--primaryColor);
+}
+
+/* Portfolio */
 .project{
     font-family:"Inter",sans-serif;
 }
@@ -203,30 +240,24 @@ img{
     color:var(--secondarytextColor) ;
 }
 
-.hero{
-    padding-top: 200px;
-    padding-bottom: 200px;
-}
-.features{
-    padding-top:94px;
-    padding-bottom: 94px;
-}
-.gallery{
-    padding-top: 94px;
-}
-.team{
-    padding-top: 94px;
-    padding-bottom:94px ;
-}
-.container{
-    width: 1170px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-left: auto;
-        margin-right: auto;
-}
+
 footer{
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #757575;
+}
+
+.fotogallery-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: var(--textcolor);
+}
+.fotogallery-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
