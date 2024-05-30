@@ -17,6 +17,10 @@ h6,
 p{
     margin: 0;
 }
+img {
+    display: block;
+    max-width: 100%;
+}
 ul{
     margin: 0;
     padding: 0;
@@ -72,7 +76,6 @@ font-size: 14px;
         letter-spacing: 0.02em;
         color: var(--textcolor);
 }
-
 .menu-link:hover{
     color: var(--secondarytextColor);
 }
@@ -209,6 +212,11 @@ box-sizing: content-box;
         padding-bottom: 30px;
 }
 /* Footer */
+footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #757575;
+}
 .logo-studio-footer{
     color:var(--primaryColor);
 }
@@ -225,6 +233,60 @@ box-sizing: content-box;
 }
 
 /* Portfolio */
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Header portfolio */
+.logo {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.logo-web {
+    color: var(--secondarytextColor);
+}
+
+.logo-studio {
+    color: #000000;
+}
+
+.menu {
+    display: flex;
+    margin-left: 93px;
+    column-gap: 60px;
+}
+
+.menu-link {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--textcolor);
+}
+
+.menu-link:hover {
+    color: var(--secondarytextColor);
+}
+
+.information {
+    display: flex;
+    margin-left: auto;
+    column-gap: 50px;
+}
+
+.information-link {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.information-link:hover {
+    color: var(--secondarytextColor);
+}
+/* Project portfolio */
 .project{
     font-family:"Inter",sans-serif;
 }
@@ -235,25 +297,25 @@ box-sizing: content-box;
         letter-spacing: 0.03em;
         text-align: center;
         color: var(--textcolor);
+
 }
 .project-button:hover{
     color:var(--secondarytextColor) ;
 }
+/* Fotogallery portfolio */
 
-
-footer{
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: #757575;
+.fotogallery-item{
+    flex-basis:calc((100% - 2 * 30px) / 3 );
 }
-
 .fotogallery-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2.00;
     letter-spacing: 0.06em;
     color: var(--textcolor);
+
 }
+
 .fotogallery-text {
     font-weight: 400;
     font-size: 16px;
@@ -261,3 +323,11 @@ footer{
     letter-spacing: 0.03em;
     color: #757575;
 }
+
+/* Footer portfolio */
+footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #757575;
+}
+
