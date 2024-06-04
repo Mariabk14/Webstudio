@@ -143,6 +143,9 @@ font-size: 14px;
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.features-title{
+    display: none;
+}
 .features-list{
     display: flex;
     column-gap:30px ;
@@ -152,6 +155,7 @@ font-size: 14px;
         font-weight: 700;
         text-transform: uppercase;
         color:var(--textcolor);
+        margin-bottom: 10px;
 
 }
 .features-item{
@@ -246,49 +250,53 @@ footer {
     font-weight: 700;
     font-size: 26px;
 }
-
 .logo-web {
     color: var(--secondarytextColor);
 }
-
 .logo-studio {
     color: #000000;
 }
-
 .menu {
     display: flex;
     margin-left: 93px;
     column-gap: 60px;
 }
-
 .menu-link {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--textcolor);
 }
-
 .menu-link:hover {
     color: var(--secondarytextColor);
 }
-
 .information {
     display: flex;
     margin-left: auto;
     column-gap: 50px;
 }
-
 .information-link {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #757575;
 }
-
 .information-link:hover {
     color: var(--secondarytextColor);
 }
 /* Project portfolio */
 .project{
     font-family:"Inter",sans-serif;
+    padding-top:94px ;
+    padding-bottom: 94px;
+}
+.project-title{
+   display: none;
+ 
+}
+.button-list{
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+    margin-bottom: 50px;
 }
 .project-button {
         font-weight: 500;
@@ -297,15 +305,26 @@ footer {
         letter-spacing: 0.03em;
         text-align: center;
         color: var(--textcolor);
-
+        padding: 6px 25px;
+        border: none;
+        background-color:#F5F4FA ;
 }
 .project-button:hover{
-    color:var(--secondarytextColor) ;
+    background-color:var(--secondarytextColor) ;
+    color: var(--primaryColor);
 }
-/* Fotogallery portfolio */
-
+.fotogallery-list{
+    display:flex ;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
 .fotogallery-item{
     flex-basis:calc((100% - 2 * 30px) / 3 );
+    border: 1px solid #eee;
+}
+.fotogallery-content{
+    padding: 20px 24px;
 }
 .fotogallery-title {
     font-weight: 700;
@@ -313,9 +332,9 @@ footer {
     line-height: 2.00;
     letter-spacing: 0.06em;
     color: var(--textcolor);
+    margin-bottom: 4px;
 
 }
-
 .fotogallery-text {
     font-weight: 400;
     font-size: 16px;
