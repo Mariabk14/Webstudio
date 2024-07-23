@@ -98,6 +98,12 @@ font-size: 14px;
     background-color:#2F303A ;
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: url(../images/Img\ Overlayfoto.png), url(../images/gratient.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .hero-title {
         font-weight: 900;
@@ -219,7 +225,7 @@ box-sizing: content-box;
 footer {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: #757575;
+    background-color: #2F303A;
 }
 .logo-studio-footer{
     color:var(--primaryColor);
@@ -343,10 +349,4 @@ footer {
     color: #757575;
 }
 
-/* Footer portfolio */
-footer{
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: #757575;
-}
 
