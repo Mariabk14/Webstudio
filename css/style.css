@@ -74,7 +74,7 @@ font-size: 14px;
     margin-left: 93px;
     column-gap: 60px;
 }
-.menu-link{
+        .menu-link{
         font-weight: 500;
         letter-spacing: 0.02em;
         color: var(--textcolor);
@@ -269,6 +269,9 @@ background-position: center;
         text-align: center;
         color: #757575;
         padding-bottom: 30px;
+}
+.icon-menu{
+    display: flex;
 }
 /* Footer */
 footer {
