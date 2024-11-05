@@ -92,6 +92,14 @@ font-size: 14px;
         letter-spacing: 0.02em;
         color: #757575;
         display: flex;
+        column-gap: 10px;
+        align-items: center;
+}
+.information-icon{
+    fill:#757575;
+}
+.information-link:hover .information-icon{
+    fill: #2196F3;
 }
 
 .information-link:hover{
@@ -273,6 +281,66 @@ background-position: center;
 }
 .icon-menu{
     display: flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.icon-item{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.icon-item:hover{
+    background-color: #2196F3;
+    border-radius: 50%;
+
+}
+.social-icon{
+    fill: #afb1b8;
+}
+.icon-item:hover .social-icon{
+    fill: #ffffff;
+}
+
+.regular-section{
+    padding-bottom: 94px;
+}
+.regular-text{
+    padding-top: 94px;
+    padding-bottom: 50px;
+    font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 36px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #212121;
+}
+.regular-menu{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.regular-link{
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.icon-regular{
+    fill: #afb1b8;
+}
+.regular-link:hover .icon-regular{
+    fill: #2196F3;
+}
+.regular-link:hover{
+    border-color: #2196F3;
 }
 /* Footer */
 footer {
@@ -294,7 +362,34 @@ footer {
 .contacts-link{
  color: var(--primaryColor);
 }
-
+.footer-platz{
+    display: flex;
+}
+.social-media{
+   margin-left: 70px;
+   margin-top: 12px;
+}
+.social-media-title{
+    font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom:20px ;
+}
+.social-media-icon{
+    fill:#ffffff ;
+}
+.icon-footer{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* Portfolio */
 .container {
     width: 1170px;
