@@ -354,13 +354,17 @@ footer {
 .address{
     line-height: 1.71;
     font-style:normal ;
+    margin-top: 20px;
 }
 .address-text{
     color: var(--primaryColor);
-    padding-top: 20px;
+    margin-bottom: 9px;
 }
 .contacts-link{
  color: var(--primaryColor);
+}
+.contacts-item{
+    padding-bottom: 9px;
 }
 .footer-platz{
     display: flex;
