@@ -636,7 +636,7 @@ position: relative;
 .checkbox-wrap{
     display: flex;
     column-gap: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 .modal-check-label{
     font-family: var(--font-family);
