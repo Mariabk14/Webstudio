@@ -527,6 +527,40 @@ footer {
     box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     background: #fff;
 }
+.hover-overly{
+    position: relative;
+    overflow: hidden;
+}
+.fotogallery-foto{
+    display: block;
+    max-width: 100%;
+}
+.fotogallery-foto::before{
+    box-sizing: border-box;
+}
+.fotogallery-foto:hover .overly-text{
+    transform: translateY(0);
+    opacity: (1);
+}
+.overly-text{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background-color: #2196F3;
+    padding: 24px 63px;
+    transform: translateY(-100%);
+    transition: transform 250ms;
+    font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.56;
+        letter-spacing: 0.03em;
+        color: #fff;
+        
+}
 .fotogallery-content{
     padding: 20px 24px;
 }
