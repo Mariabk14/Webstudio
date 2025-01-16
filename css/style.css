@@ -719,6 +719,9 @@ position: relative;
 .modal-input-icon:hover{
     fill: var(--secondarytextColor);
 }
+.modal-input-field:hover {
+    border: 1px solid var(--secondarytextColor);
+}
 .input-box:hover .modal-input-icon{
     fill: var(--secondarytextColor);
 }
