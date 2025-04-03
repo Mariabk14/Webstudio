@@ -1,5 +1,5 @@
 
-:root {
+/* :root {
     --font-family: "Roboto", sans-serif;
     --second-family: "Raleway", sans-serif;
     --third-family: "Inter", sans-serif;
@@ -7,8 +7,8 @@
         --secondarytextColor: #2196F3;
         --maincolor: #30313E;
         --textcolor:#212121;
-}
-h1,
+} */
+/* h1,
 h2,
 h3,
 h4,
@@ -29,36 +29,36 @@ ul{
 }
 a{
     text-decoration: none;
-}
-header{
+} */
+/* header{
     padding-top: 32px;
     padding-bottom: 32px;
     border-bottom:1px solid #ececec;
     max-width: 1600px;
     margin: 0 auto;
-}
+} */
 
-body {
+/* body {
 font-family: var(--font-family);
 font-weight: 400;
 font-size: 14px;
         letter-spacing: 0.03em;
-}
+} */
 
-.header-position {
+/* .header-position {
     display: flex;
     align-items: center;
 
-}
-.container {
+} */
+/* .container {
     width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 /* шапка сайту */
-.logo {
+/* .logo {
     font-family: var(--second-family);
         font-weight: 700;
         font-size: 26px;
@@ -121,9 +121,9 @@ font-size: 14px;
 
 .information-link:hover{
     color: var(--secondarytextColor);
-}
+} */
 /* Hero section */
-.hero{
+/* .hero{
     background-color:#2F303A ;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -173,9 +173,9 @@ font-size: 14px;
     font-size: 36px;
     text-align: center;
     color:var(--textcolor);
-}
+} */
 /* Our features */
-.features {
+/* .features {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -246,9 +246,9 @@ background-position: center;
         line-height: 1.71;
         color: #757575;
         width: 270px;
-}
+} */
 /* What do we do */
-.gallery {
+/* .gallery {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -284,10 +284,10 @@ background-position: center;
         text-transform: uppercase;
         text-align: center;
         color: #fff;
-}
+} */
 
 /* Our team */
-.team {
+/* .team {
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: #F5F4FA;
@@ -382,9 +382,9 @@ background-position: center;
 }
 .regular-link:hover{
     border-color: #2196F3;
-}
+} */
 /* Footer */
-footer {
+/* footer {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #2F303A;
@@ -485,7 +485,7 @@ footer {
 .form-button-icon{
     width: 24px;
     height: 24px;
-}
+} */
 
 
 /* Portfolio */
