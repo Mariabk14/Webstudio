@@ -535,7 +535,7 @@ background-position: center;
     color: var(--secondarytextColor);
 }
 /* Project portfolio */
-.project{
+/* .project{
     font-family:"Inter",sans-serif;
     padding-top:94px ;
     padding-bottom: 94px;
@@ -598,7 +598,7 @@ background-position: center;
     left: 0;
     right: 0;
     /* opacity: 0; */
-    background-color: rgb(33, 150, 243, 0.9);
+    /* background-color: rgb(33, 150, 243, 0.9);
     padding: 24px 63px;
     transform: translateY(100%);
     transition: transform 250ms;
@@ -613,7 +613,7 @@ background-position: center;
 .hover-overly:hover .overly-text {
     transform: translateY(0);
     /* opacity: (1); */
-}
+/* }
 .fotogallery-content{
     padding: 20px 24px;
 }
@@ -632,9 +632,9 @@ background-position: center;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: #757575;
-}
+}  */
 /* Modal Window */
-.backdrop{
+/* .backdrop{
     position: fixed;
     top: 0;
     left: 0;
@@ -769,4 +769,4 @@ position: relative;
         letter-spacing: 0.06em;
         text-align: center;
 
-}
+} */

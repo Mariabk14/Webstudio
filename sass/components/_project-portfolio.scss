@@ -1,0 +1,113 @@
+.project {
+    font-family: "Inter", sans-serif;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.project-title {
+    display: none;
+
+}
+
+.button-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+    margin-bottom: 50px;
+}
+
+.project-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--textcolor);
+    padding: 6px 25px;
+    border: none;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+
+.project-button:hover {
+    background-color: var(--secondarytextColor);
+    color: var(--primaryColor);
+}
+
+.fotogallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.fotogallery-item {
+    flex-basis: calc((100% - 2 * 30px) / 3);
+    border: 1px solid #eee;
+}
+
+.fotogallery-item:hover {
+    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    background: #fff;
+}
+
+.hover-overly {
+    position: relative;
+    overflow: hidden;
+}
+
+.fotogallery-foto {
+    display: block;
+    max-width: 100%;
+}
+
+.fotogallery-foto::before {
+    box-sizing: border-box;
+}
+
+.overly-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* opacity: 0; */
+    background-color: rgb(33, 150, 243, 0.9);
+    padding: 24px 63px;
+    transform: translateY(100%);
+    transition: transform 250ms;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    color: #fff;
+
+}
+
+.hover-overly:hover .overly-text {
+    transform: translateY(0);
+    /* opacity: (1); */
+}
+
+.fotogallery-content {
+    padding: 20px 24px;
+}
+
+.fotogallery-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: var(--textcolor);
+    margin-bottom: 4px;
+
+}
+
+.fotogallery-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
