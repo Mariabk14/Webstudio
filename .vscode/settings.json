@@ -1,6 +1,4 @@
-{
-  "liveServer.settings.port": 5505
-}
+
 {
     "liveSassCompile.settings.formats": [
         {
@@ -19,5 +17,8 @@
         ".vscode/**"
     ],
     "liveSassCompile.settings.generateMap": true,
-    "liveSassCompile.settings.autoprefix": ["defaults"]
+    "liveSassCompile.settings.autoprefix": [
+      "defaults"
+    ],
+    "liveServer.settings.port": 5505
 }
