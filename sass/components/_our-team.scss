@@ -25,7 +25,7 @@
     font-weight: 500;
     font-size: 16px;
     text-align: center;
-    color: var(--textcolor);
+    color: $textcolor;
     padding-top: 30px;
     padding-bottom: 10px;
 }
@@ -54,7 +54,7 @@
 }
 
 .icon-item:hover {
-    background-color: #2196F3;
+    background-color: $secondarytextColor;
     border-radius: 50%;
 
 }
@@ -64,7 +64,7 @@
 }
 
 .icon-item:hover .social-icon {
-    fill: #ffffff;
+    fill: $primaryColor;
 }
 
 .regular-section {
@@ -74,12 +74,12 @@
 .regular-text {
     padding-top: 94px;
     padding-bottom: 50px;
-    font-family: var(--font-family);
+    font-family: $font-family;
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.03em;
     text-align: center;
-    color: #212121;
+    color: $textcolor;
 }
 
 .regular-menu {
@@ -104,9 +104,9 @@
 }
 
 .regular-link:hover .icon-regular {
-    fill: #2196F3;
+    fill: $secondarytextColor;
 }
 
 .regular-link:hover {
-    border-color: #2196F3;
+    border-color: $secondarytextColor;
 }

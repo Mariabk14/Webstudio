@@ -11,13 +11,13 @@ header {
 
 }
 .logo {
-    font-family: var(--second-family);
+    font-family: $second-family;
     font-weight: 700;
     font-size: 26px;
 }
 
 .logo-web {
-    color: var(--secondarytextColor);
+    color: $secondarytextColor;
 }
 
 .logo-studio {
@@ -34,11 +34,11 @@ header {
     position: relative;
     font-weight: 500;
     letter-spacing: 0.02em;
-    color: var(--textcolor);
+    color: $textcolor;
 }
 
 .menu-link:hover {
-    color: var(--secondarytextColor);
+    color: $secondarytextColor;
 }
 
 .menu-link::after {
@@ -79,9 +79,9 @@ header {
 }
 
 .information-link:hover .information-icon {
-    fill: #2196F3;
+    fill: $secondarytextColor;
 }
 
 .information-link:hover {
-    color: var(--secondarytextColor);
+    color: $secondarytextColor;
 }
